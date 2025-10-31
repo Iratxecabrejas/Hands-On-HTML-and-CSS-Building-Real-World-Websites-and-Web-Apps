@@ -1,63 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <!-- Metadata for the browser -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Link to the CSS stylesheet -->
-    <link rel="stylesheet" href="styles-modified.css">
-
-    <!-- Title of the page -->
-    <title>Student CV</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iratxe Cabrejas Santiago - Currículum Vitae</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Main container for the CV -->
-    <div id="cv">
+  <div class="container">
+    <header>
+      <div class="header-left">
+        <h1>Iratxe Cabrejas Santiago</h1>
+        <p class="subtitle">Administrativa | Business Analytics Student</p>
+        <p><strong>📍 Madrid, España</strong></p>
+        <p>📞 638 933 191 | ✉️ <a href="mailto:iratxecabrejassantiago@gmail.com">iratxecabrejassantiago@gmail.com</a></p>
+      </div>
+      <div class="header-right">
+        <!-- FOTO: coloca tu foto en esta carpeta y nómbrala "foto.jpg" -->
+        <img src="foto.jpg" alt="Foto de Iratxe Cabrejas Santiago">
+      </div>
+    </header>
 
-        <!-- Student's name and title -->
-        <header>
-            <h1>Jane Doe</h1>
-            <p>Computer Science Student</p>
-        </header>
+    <section>
+      <h2>Experiencia Profesional</h2>
+      <div class="experience-item">
+        <h3>Administrativo • Urbanizadora La Zarzuela, S.L.</h3>
+        <p class="date">Junio 2023 – Actual</p>
+        <p>Apoyo en tareas generales de oficina, gestión de archivos y documentos administrativos, atención telefónica, clasificación de documentación, y pagos mediante transferencias a proveedores.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Administrativo • IRLASA, S.A.</h3>
+        <p class="date">Junio 2021 – Septiembre 2022</p>
+        <p>Apoyo en tareas generales de oficina, actualización de archivos, atención y transferencia de llamadas, y recepción de clientes.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Estudiante en prácticas • IRLASA, S.A.</h3>
+        <p class="date">Marzo 2021 – Junio 2021</p>
+        <p>Gestión de tareas administrativas, archivo y atención telefónica.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Dependienta tienda • INDITEX, S.A.</h3>
+        <p class="date">Julio 2024 – Septiembre 2024</p>
+        <p>Reposición de prendas, inventarios, disposición de artículos en tienda y atención al cliente.</p>
+      </div>
+    </section>
 
-        <!-- Contact information -->
-        <section id="contact">
-            <h2>Contact Information</h2>
-            <address>
-                <p>Email: janedoe@example.com</p>
-                <p>Phone: +1234567890</p>
-            </address>
-        </section>
+    <section>
+      <h2>Formación Académica</h2>
+      <ul>
+        <li><strong>Máster en Business Analytics, IA & Machine Learning</strong> – Universidad Francisco de Vitoria (2025 – en curso)</li>
+        <li><strong>Grado en Administración y Dirección de Empresas + Título en Transformación Digital</strong> – Universidad Francisco de Vitoria (2021 – 2025)</li>
+        <li><strong>CFGS Administración y Finanzas</strong> – IES San Juan de la Cruz (2019 – 2021)</li>
+        <li><strong>Bachillerato: Ciencias Sociales</strong> – Colegio San José de Cluny (2017 – 2019)</li>
+      </ul>
+    </section>
 
-        <!-- Education details -->
-        <section id="education">
-            <h2>Education</h2>
-            <p>BS in Computer Science, XYZ University, 2023</p>
-        </section>
+    <section>
+      <h2>Habilidades</h2>
+      <ul class="skills">
+        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+        <li>Google Workspace (Docs, Sheets, Drive)</li>
+        <li>Python, Java, HTML, CSS</li>
+        <li>Power BI, Análisis de datos</li>
+        <li>Redacción y corrección de texto</li>
+      </ul>
+    </section>
 
-        <!-- Skills -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Aptitudes</h2>
+      <ul>
+        <li>Trabajo en equipo</li>
+        <li>Proactividad e iniciativa</li>
+        <li>Excelente comunicación</li>
+        <li>Responsabilidad y organización</li>
+        <li>Contabilidad y finanzas</li>
+      </ul>
+    </section>
 
-        <!-- Experience -->
-        <section id="experience">
-            <h2>Experience</h2>
-            <!-- Each work experience can be an article -->
-            <article>
-                <h3>Intern at ABC Corp</h3>
-                <p>Developed XYZ features.</p>
-            </article>
-        </section>
-    </div>
+    <section>
+      <h2>Idiomas</h2>
+      <ul>
+        <li><strong>Español:</strong> Nativo</li>
+        <li><strong>Inglés:</strong> B2</li>
+      </ul>
+    </section>
+  </div>
 </body>
-
 </html>
